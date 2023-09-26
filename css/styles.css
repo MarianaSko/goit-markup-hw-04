@@ -537,8 +537,13 @@ body {
   height: 24px;
   border-radius: 50%;
   background-color: var(--accent);
-}
-.modal-close-icon {
   fill: var(--dark);
 }
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: var(--pressed-state);
+  fill: var(--white-background);
+}
+
 /* ======================/MODAL WINDOW======================= */
