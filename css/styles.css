@@ -441,7 +441,8 @@ body {
   letter-spacing: 0.02em;
   transition: opacity var(--trns-slow);
 }
-.projects-item:hover .overlay {
+.projects-item:hover .overlay,
+.projects-item:focus .overlay {
   opacity: 1;
 }
 /* ======================/PORTFOLIO======================= */
