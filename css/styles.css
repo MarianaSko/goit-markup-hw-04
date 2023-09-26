@@ -463,7 +463,10 @@ body {
 /* ======================FOOTER======================= */
 .footer-container {
   display: flex;
-  gap: 128px;
+  align-items: baseline;
+}
+.footer-left-side {
+  margin-right: 120px;
 }
 .page-header {
   border-bottom: 1px solid var(--accent);
@@ -485,7 +488,7 @@ body {
   display: flex;
   gap: 16px;
 }
-.footer-socials-title {
+.footer-socials {
   color: var(--white-background);
   font-weight: 500;
   line-height: 1.5;
